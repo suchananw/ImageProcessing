@@ -13,7 +13,7 @@ search_list = searchList.search100
 
 def saveImage(items, start, name):
   count = start
-  dir_name = name
+  dir_name = 'ImageCollection/' + name
   for item in items:
     url = item['link']
     print(url)
